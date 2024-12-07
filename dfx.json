@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "regex_starter_backend": {
+      "declarations": {
+        "node_compatibility": true
+      },
+      "main": "src/regex_starter_backend/main.mo",
+      "type": "motoko"
+    },
+    "regex_starter_frontend": {
+      "dependencies": [
+        "regex_starter_backend"
+      ],
+      "source": [
+        "src/regex_starter_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "regex_starter_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

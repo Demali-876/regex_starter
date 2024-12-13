@@ -1,4 +1,5 @@
 # Regex Starter Project for Internet Computer
+<img width="1439" alt="Screenshot 2024-12-13 at 11 03 18 AM" src="https://github.com/user-attachments/assets/a6fdf7db-2bb9-491f-8108-36c685b54009" />
 
 A starter project demonstrating how to use the regex library on the Internet Computer platform. This project serves as an example for developers looking to implement regular expressions in their Motoko applications.
 
